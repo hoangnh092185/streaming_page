@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo.js';
 import './App.css';
+import IMG from '../public/img0206.jpg';
 
 var App = React.createClass({
   apiKey: '87dfa1c669eea853da609d4968d294be',
@@ -64,7 +65,7 @@ var UserProfile = React.createClass({
       <div className="UserProfile">
         <div className="User">
           <div className="name">Nhat Hoang</div>
-          <div className="image"><img src="../public/img0206.jpg" alt="profile" /></div>
+          <div className="image"><img src={IMG} alt="profile" /></div>
         </div>
       </div>
     );
